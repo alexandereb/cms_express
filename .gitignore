@@ -1,0 +1,53 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules
+/node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+### Bower ###
+bower_components
+/bower_components
+.bower-cache
+.bower-registry
+.bower-tmp
+
+
+### Stylus ###
+*.css
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
